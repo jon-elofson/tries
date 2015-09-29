@@ -1,5 +1,3 @@
-require 'byebug'
-
 class TrieNode
 
   attr_accessor :is_terminal, :children
@@ -8,7 +6,6 @@ class TrieNode
     @is_terminal = is_terminal
     @children = {}
   end
-
 
 end
 
@@ -130,8 +127,6 @@ class Trie
     end
     nil
   end
-
-
 
 
 end
